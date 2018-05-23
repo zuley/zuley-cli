@@ -1,0 +1,30 @@
+{
+  "name": "zuley-cli",
+  "version": "1.0.0",
+  "description": "前端自动化发布系统",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "zuley": "app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuley/zuley-cli.git"
+  },
+  "author": "猪不乐意 (914230482@qq.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zuley/zuley-cli/issues"
+  },
+  "homepage": "https://github.com/zuley/zuley-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "inquirer": "^5.2.0",
+    "node-ssh": "^5.1.1",
+    "ora": "^2.1.0",
+    "shelljs": "^0.8.2"
+  }
+}
